@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-
-    <header class="header">
-        <div class="contenedor contenido-header ">
-          <div class="barra">
-            <a href="/">
-                <img src="build/img/logo.svg" alt="Logotipo Bienes Raices">
-            </a>
-
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-
-          </div> <!--Barra de Navegacion-->
-        </div>
-    </header>
+<?php  include 'includes/templates/header.php';  ?>
 
     <main class="contenedor seccion"> 
         <section class="seccion contenedor">
@@ -59,7 +32,7 @@
                             </li>
                         </ul>
     
-                        <a href="anuncio.html" class=" boton-naranja-block">
+                        <a href="anuncio.php" class=" boton-naranja-block">
                             Ver Propiedad
                         </a>
                     </div>
@@ -92,7 +65,7 @@
                             </li>
                         </ul>
     
-                        <a href="anuncio.html" class=" boton-naranja-block">
+                        <a href="anuncio.php" class=" boton-naranja-block">
                             Ver Propiedad
                         </a>
                     </div>
@@ -125,7 +98,7 @@
                             </li>
                         </ul>
     
-                        <a href="anuncio.html" class="boton-naranja-block">
+                        <a href="anuncio.php" class="boton-naranja-block">
                             Ver Propiedad
                         </a>
                     </div>
@@ -158,7 +131,7 @@
                             </li>
                         </ul>
     
-                        <a href="anuncio.html" class="boton-naranja-block">
+                        <a href="anuncio.php" class="boton-naranja-block">
                             Ver Propiedad
                         </a>
                     </div>
@@ -191,7 +164,7 @@
                             </li>
                         </ul>
     
-                        <a href="anuncio.html" class="boton-naranja-block">
+                        <a href="anuncio.php" class="boton-naranja-block">
                             Ver Propiedad
                         </a>
                     </div>
@@ -224,7 +197,7 @@
                             </li>
                         </ul>
     
-                        <a href="anuncio.html" class="boton-naranja-block">
+                        <a href="anuncio.php" class="boton-naranja-block">
                             Ver Propiedad
                         </a>
                     </div>
@@ -233,18 +206,7 @@
         </section>
     </main>
 
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
-
-        <p class="copyright">Todos los derechos Reservados 2022 &copy; </p>
-    </footer>
+    <?php include 'includes/templates/footer.php' ; ?>
 
 
 

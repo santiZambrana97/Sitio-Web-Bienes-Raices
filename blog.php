@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-
-    <header class="header">
-        <div class="contenedor contenido-header ">
-          <div class="barra">
-            <a href="/">
-                <img src="build/img/logo.svg" alt="Logotipo Bienes Raices">
-            </a>
-
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-
-          </div> <!--Barra de Navegacion-->
-        </div>
-    </header>
-
-    <main class="contenedor seccion contenido-centrado"> 
+<?php  include 'includes/templates/header.php';  ?>
+    
+<main class="contenedor seccion contenido-centrado"> 
         <h1>Nuestro Blog</h1>
 
         <article class="entrada-blog">
@@ -40,7 +13,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Terraza en el techo de tu casa</h4>
                     <p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
                     <p>Consejos para construir una terraza en el techo de tu casa con los 
@@ -59,7 +32,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Construye una alberca en tu hogar</h4>
                     <p class="informacion-meta">Escrito el: <span>12/7/2021</span> por: <span>Santiago</span> </p>
                     <p>Tips y pasos para poder llevar a cabo la construccion de una piscina 
@@ -78,7 +51,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Guia para la decoración de tu hogar</h4>
                     <p class="informacion-meta">Escrito el: <span>12/7/2021</span> por: <span>Santiago</span> </p>
                     <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar 
@@ -97,7 +70,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Guia para la decoración de tu hogar</h4>
                     <p class="informacion-meta">Escrito el: <span>12/7/2021</span> por: <span>Santiago</span> </p>
                     <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar 
@@ -107,19 +80,7 @@
         </article>
     </main>
 
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
-
-        <p class="copyright">Todos los derechos Reservados 2022 &copy; </p>
-    </footer>
-
+    <?php include 'includes/templates/footer.php' ; ?>
 
 
     <script src="build/js/bundle.min.js"></script> 
