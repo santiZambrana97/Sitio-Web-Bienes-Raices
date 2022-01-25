@@ -10,4 +10,7 @@
         </div>
 
         <p class="copyright">Todos los derechos Reservados 2022 &copy; </p>
-    </footer>
+</footer>
+
+<script src="/build/js/bundle.min.js"></script> 
+

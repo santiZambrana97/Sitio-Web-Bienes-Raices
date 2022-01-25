@@ -9,20 +9,6 @@
     padding: 1rem 0 3rem 0;
 }
 
-.inicio{
-    background-position: center center;
-    background-size: cover;
-
-    @include tablet{
-        min-height: 55rem;
-    }
-
-    .contenido-header{
-        @include tablet{
-            min-height: 55rem;
-        }
-    }
-}
 .contenido-header{
     display: flex;
     flex-direction: column;
