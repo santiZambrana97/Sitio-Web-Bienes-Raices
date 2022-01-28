@@ -7,6 +7,40 @@
     margin: 1rem 0;
 
     &.error{
-        background-color: rgb(236, 10, 10);
+        background-color: $rojo;
     }
+
+    &.exito{
+        background-color: $azul;
+    }
+}
+
+table.propiedades{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        background-color: $verde;
+
+        th{
+          color: $blanco;
+          padding: 2rem;
+        } 
+    }
+
+    td{
+        text-align: center;
+    }
+
+    .imagen-tabla{
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.small-imagen{
+    width: 40rem;
 }
