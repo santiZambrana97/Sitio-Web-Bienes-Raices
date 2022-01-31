@@ -1,6 +1,14 @@
-<?php  
-    //Incluye un template header
+<?php 
+
     require '../includes/funciones.php';
+    
+    $autenticado = estaAutenticado();
+
+    if(!$autenticado){
+        header('Location: /');
+    }
+
+    //Incluye un template header
     incluirTemplate('header');
 
     //Importar la conexión

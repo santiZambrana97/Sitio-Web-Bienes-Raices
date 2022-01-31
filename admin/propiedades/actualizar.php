@@ -1,4 +1,12 @@
-<?php  
+<?php 
+
+    require '../../includes/funciones.php';
+        
+    $autenticado = estaAutenticado();
+
+    if(!$autenticado){
+        header('Location: /');
+    }
 
     //validar el id, evitando que el usuario quera modificarlo queriendo colocar otro tipo de dato
     $id = $_GET['id'];
@@ -126,7 +134,7 @@
 
   }
 
-  require '../../includes/funciones.php';
+  //Incluye Template header
   incluirTemplate('header');
 
 ?>
